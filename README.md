@@ -44,3 +44,21 @@ brew services start elasticsearch@6.8
 axbrew install elasticsearch@6.8
 axbrew services start elasticsearch@6.8
 ```
+
+### Elasticsearch@7.10.2
+
+Will install Elasticsearch version 7.10.2
+
+#### Using AMD64
+
+```bash
+brew install elasticsearch@7.10.2
+brew services start elasticsearch@7.10.2
+```
+
+#### Using ARM64 (Apple Silicon)
+
+```bash
+axbrew install elasticsearch@7.10.2
+axbrew services start elasticsearch@7.10.2
+```
